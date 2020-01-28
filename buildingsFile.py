@@ -14,7 +14,7 @@ def readData():
     for eachLine in inputFile:
         building = eachLine.strip().split(",")
 
-        record = Building
+        record = Building()
         record.building_name = building[0]
         record.city = building[1]
         record.country = building[2]
@@ -30,7 +30,7 @@ def findTallestBuilding(buildings):
     maxvalue = buildings[0]
     for eachElement in range(len(buildings)):
         if buildings[eachElement].height > maxvalue.height:
-            maxvalue = building[eachElement]
+            maxvalue = buildings[eachElement]
     print("Tallest Building is " + maxvalue.building_name + ", " + maxvalue.city + ", " + maxvalue.country)
 
 def countChinaBuildings(buildings):
@@ -38,11 +38,11 @@ def countChinaBuildings(buildings):
     for eachBuilding in range(len(buildings)):
         if buildings[eachBuilding].country == "China":
             counter = counter + 1
-            return counter
+    return counter
 
 def printOutput(number):
-        buildingInChina = number
-        print("There are", buildingsInChina, "buildings in China.")
+    buildingInChina = number
+    print("There are", buildingsInChina, "buildings in China.")
 
 buildings = readData()
 findTallestBuilding(buildings)
