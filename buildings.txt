@@ -1,0 +1,10 @@
+Shanghai Tower,Shanghai,China,632.0,128
+Lotte World Tower,Seoul,South Korea,554.5,123
+432 Park Avenue,New York City,United States,425.5,88
+Marina 101,Dubai,United Arab Emirates,425.0,101
+International Commerce Centre,Hong Kong,China,484.0,118
+Al Hamra Tower,Kuwait City,Kuwait,413.0,80
+Petronas Tower 1,Kuala Lumpur,Malaysia,451.9,88
+Burj Khalifa,Dubai,United Arab Emirates,828.0,163
+Landmark 81,Ho Chi Minh City,Vietnam,461.2,81
+Abraj Al-Bait Clock Tower,Mecca,Saudi Arabia,601.0,120
